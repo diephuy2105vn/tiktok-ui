@@ -1,0 +1,12 @@
+.wrapper {
+    width: 100%;
+    height: var(--df-layout-header-h);
+    box-shadow: 0 1px 1px rgb(0 0 0/20%);
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    height: 100%;
+    width: var(--df-layout-w);
+}

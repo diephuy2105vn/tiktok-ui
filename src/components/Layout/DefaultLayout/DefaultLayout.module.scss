@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: var(--df-layout-w);
+    display: flex;
+}
+
+.contain {
+    flex: 1;
+}

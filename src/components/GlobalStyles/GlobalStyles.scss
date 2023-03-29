@@ -1,10 +1,16 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 :root {
-    --primary: #ff3b5c
+    --primary: #ff3b5c;
+
+    //Default
+    --df-layout-header-h: 60px;
+    --df-layout-w: 1150px;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
