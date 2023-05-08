@@ -4,5 +4,6 @@
 		"paths": {
 			"~/*": ["src/*"]
 		}
-	}
+	},
+	"Microsoft.PowerShell:ExecutionPolicy": "RemoteSigned"
 }

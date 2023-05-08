@@ -16,27 +16,76 @@
 	box-sizing: border-box;
 }
 
+// Fonts emmbeded
+@font-face {
+	font-family: ProximaNova;
+	src: url('/font/Proxima-Nova-Bold.woff2');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: ProximaNova;
+	src: url('/font/Proxima-Nova-Regular.woff2');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: ProximaNova;
+	src: url('/font/Proxima-Nova-Semibold.woff2');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: SofiaPro;
+	src: url('/font/sofiapro-bold.woff2');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: SofiaPro;
+	src: url('/font/sofiapro-medium.woff2');
+	font-weight: 600;
+}
+
 html {
 	font-size: 62.5%;
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'ProximaNova', sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.5;
 	text-rendering: optimizeSpeed;
+
+	.tippy-box {
+		border-radius: 10px;
+		font-weight: 600;
+		font-size: 16px;
+		background-color: rgba(84, 84, 84, 0.92);
+		padding: 4px;
+		&[data-placement^='bottom'] .tippy-arrow {
+			top: -1px;
+		}
+	}
+
+	.tippy-arrow {
+		color: rgba(84, 84, 84, 0.92);
+	}
 }
 
 button,
 input,
 [tabindex] {
+	font-family: 'ProximaNova', sans-serif;
 	outline: none;
 	border: none;
 }
 
 a[href],
 button {
+	background-color: transparent;
 	user-select: none;
+	font-family: 'ProximaNova', sans-serif;
 	&:hover {
 		cursor: pointer;
 	}
